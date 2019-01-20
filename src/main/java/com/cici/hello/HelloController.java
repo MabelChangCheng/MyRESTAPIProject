@@ -20,4 +20,14 @@ public class HelloController {
         return new Greeting(2, "This is my 2nd content");
 
     }
+    @RequestMapping("/greeting/cici")
+    public Greeting greeting3() {
+        return new Greeting(2, "This is my 2nd content");
+
+    }
+    @RequestMapping("/greeting/cici")
+    public Greeting greeting4() {
+        return new Greeting(2, "This is my 2nd content");
+
+    }
 }
